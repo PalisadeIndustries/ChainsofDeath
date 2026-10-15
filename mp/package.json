@@ -1,0 +1,9 @@
+{
+  "name": "chain-of-earths",
+  "version": "1.0.0",
+  "description": "Multiplayer server for Chain of Earths, a turn-based war across portal-linked parallel Earths.",
+  "main": "server.js",
+  "scripts": { "start": "node server.js", "build": "python3 build/build.py src/game_src.js src/ui.js src/shell.html src/mask.txt" },
+  "engines": { "node": ">=18" },
+  "dependencies": { "ws": "^8.18.0" }
+}
